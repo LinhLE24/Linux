@@ -1,0 +1,74 @@
+Exercise 2
+2.1 
+jenny
+$person
+jenny
+2.2
+Looping ... number 1
+Looping ... number 2
+Looping ... number 3
+Looping ... number 4
+Looping ... number 5
+2.3
+1 ... 2
+2 ... 4
+3 ... 6
+4 ... 1
+5 ... 3
+6 ... 5
+7 ... 7
+DONE!
+
+2.4
+
+34
+FREDO.tar.gz
+FREDO.tar.gz
+fredo.tar.gz
+
+fred
+/home/jean/fredy/Siso/fred7.tar.gz
+/home/jean/jeany/Siso/jean7.tar.gz
+/home//fredy/Siso/fred7.tar.gz
+/home//y/Siso/7.tar.gz
+tar.gz
+fred7.tar.gz
+/home/fred/fredy/Siso
+
+./script1.sh: line 17: ${user1^}: bad substitution
+./script1.sh: line 18: ${user1^^}: bad substitution
+./script1.sh: line 19: ${user1,}: bad substitution
+./script1.sh: line 20: ${user1,,}: bad substitution
+./script1.sh: line 21: ${user2,}: bad substitution
+./script1.sh: line 22: ${user2,,}: bad substitution
+./script1.sh: line 23: ${user~}: bad substitution
+./script1.sh: line 24: ${user~~}: bad substitution
+Ahmed
+Ahmed Alexandre Alice Bob Charlie
+5
+Ahmed[1]
+Alice
+5
+0 1 2 3 100
+exa
+2.5
+the result of 4, 8 and 21 is 11
+the average of 4 and 14 is 9
+the average of nothing is 0
+2.6
+The res1 of 1 is 1
+The res2 of 1 is 1
+The res1 of 2 is 4
+The res2 of 2 is 8
+The res1 of 3 is 9
+The res2 of 3 is 27
+The res1 of 4 is 16
+The res2 of 4 is 64
+The res1 of 5 is 25
+The res2 of 5 is 125
+
+2.7
+
+the output is “mv: rename *.doc to *.txt: No such file or directory” in case there is not .doc file.
+As long as there is at least one .doc file. The ./script7.sh will change all the .doc files to .txt files with the same file names.
+

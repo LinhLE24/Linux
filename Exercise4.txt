@@ -1,0 +1,43 @@
+Exercise4
+
+fruits=(apple banana pear orange)
+Give and explain the output of each of the following commands:
+echo ${#fruits}
+output: 5 
+Number of char in “apple”
+echo ${#fruits[@]}
+output: 4
+Number of elements in the fruits array
+echo ${#fruits[0]}
+output: 5 
+Number of char in “apple”
+echo ${#fruits[1]}
+output: 6 
+Number of char in “banana”
+echo ${#fruits[2]}
+output: 4 
+Number of char in “pear”
+
+echo ${#fruits[3]}
+output: 6
+Number of char in “orange”
+echo ${fruits[@]:3}
+output: orange
+Print element at index 3
+
+echo ${fruits[@]:2:3}
+output: pear orange
+Print 3 elements from index 2. We just see 2 elements ‘pear’ and ‘orange’ because in the fruits array, we just have 2 elements left from index 2.
+
+4.2) Add the element "aa" at the beginning of the table
+
+fruits=("aa" "${fruits[@]}")
+
+4.3) Add the element "gg" at the end of the table
+
+fruits=("${fruits[@]}" "gg" )
+
+4.4) Add the element "dd" in the middle
+We need to determine middle position and append
+let index=${#fruits[@]}/2
+fruits[index]=dd
